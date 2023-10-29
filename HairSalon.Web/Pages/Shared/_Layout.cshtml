@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Hair salon templates for mens hair cut service provider.">
+    <meta name="keywords" content="hair salon website templates free download, html5 template, free responsive website templates, website layout,html5 website templates, template for website design, beauty HTML5 templates, cosmetics website templates free download">
+
+    <title>@ViewData["Title"] - HairSalon.Web</title>
+
+    <!-- HairSalon-->
+    <link href="~/lib/HairSalon/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7cMontserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- HairSalon Font Awesome -->
+    <link href="~/lib//HairSalon/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HairSalon Style -->
+    <link href="~/lib/HairSalon/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
+    <![endif]-->
+    <!-- /.HairSalon-->
+    @*
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HairSalon.Web.styles.css" asp-append-version="true" />
+    *@
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+                        <a asp-area="" asp-page="/Index"><img src="~/lib/HairSalon/images/logo.png" alt="Hair Salon Website Templates Free Download"></a>
+                    </div>
+                    <div class="col-lg-10 col-md-8 col-sm-12 col-xs-12">
+                        <div class="navigation">
+                            <div id="navigation">
+                                <ul>
+                                    <li class="active"><a asp-area="" asp-page="/Index">Home</a></li>
+                                    <li class="has-sub">
+                                        <a asp-area="" asp-page="/Service-list" title="Service List">Service List</a>
+                                        <ul>
+                                            <li><a asp-area="" asp-page="/Service-list">Service List</a></li>
+                                            <li><a asp-area="" asp-page="/Service-detail">Service Detail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub">
+                                        <a asp-area="" asp-page="/Blog-default" title="Blog ">News</a>
+                                        <ul>
+                                            <li><a asp-area="Blog" asp-page="/Default">Blog Default</a></li>
+                                            <li><a asp-area="Blog" asp-page="/Single">Blog Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a asp-area="" asp-page="/#" title="Features">Admin</a>
+                                        <ul>
+                                            <li><a asp-area="" asp-page="/Admin/Appointment/Index">Appointment</a></li>
+                                            <li><a asp-area="" asp-page="/Admin/Management/DutyTime/Index">DutyTime</a></li>
+                                            <li><a asp-area="" asp-page="/Admin/Management/Employed/Index">Employed</a></li>
+                                            <li><a asp-area="" asp-page="/Admin/Management/HairSalonUser/Index">HairSalonUser</a></li>
+                                            <li><a asp-area="" asp-page="/Admin/Management/Picture/Index">Picture</a></li>
+                                            <li><a asp-area="" asp-page="/Admin/Management/ShopServicis/Index">ShopServicis</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a asp-area="" asp-page="/#" title="Features">User</a>
+                                        <ul>
+                                            <li><a asp-area="" asp-page="/User/Appointment/Index">Appointment</a></li>
+                                            <li><a asp-area="" asp-page="/User/DutyTime/Index">DutyTime</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a asp-area="" asp-page="/Contact">Contact</a> </li>
+                                    <partial name="_LoginPartial" />
+                                    <li><a asp-area="" asp-page="/Privacy">Privacy</a></li>
+                                    @*<partial name="_Language" />*@
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+
+        <div class="footer">
+            <!-- footer-->
+            <div class="container">
+                <div class="footer-block">
+                    <!-- footer block -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer-widget">
+                                <h2 class="widget-title">Salon Address</h2>
+                                <ul class="listnone contact">
+                                    <li><i class="fa fa-map-marker"></i> 4958 Norman Street Los Angeles, CA 90042 </li>
+                                    <li><i class="fa fa-phone"></i> +00 (800) 123-4567</li>
+                                    <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+                                    <li><i class="fa fa-envelope-o"></i> info@salon.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-widget footer-social">
+                                <!-- social block -->
+                                <h2 class="widget-title">Social Feed</h2>
+                                <ul class="listnone">
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> Facebook </a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i> Linked In</a></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-youtube"></i>Youtube</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.social block -->
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <div class="footer-widget widget-newsletter">
+                                <!-- newsletter block -->
+                                <h2 class="widget-title">Newsletters</h2>
+                                <p>Enter your email address to receive new patient information and other useful information right to your inbox.</p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Email Address">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">Subscribe</button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </div>
+                            <!-- newsletter block -->
+                        </div>
+                    </div>
+                    <div class="tiny-footer">
+                        <!-- tiny footer block -->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="copyright-content">
+                                    <p>© Men Salon 2020 | all rights reserved</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.tiny footer block -->
+                </div>
+                <!-- /.footer block -->
+            </div>
+        </div>
+        <!-- /.footer-->
+    </footer>
+
+    <!-- HairSalon -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/lib//HairSalon/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/lib//HairSalon/js/bootstrap.min.js"></script>
+    <script src="~/lib//HairSalon/js/menumaker.js"></script>
+    <!-- sticky header -->
+    <script src="~/lib//HairSalon/js/jquery.sticky.js"></script>
+    <script src="~/lib//HairSalon/js/sticky-header.js"></script>
+    <!-- /.HairSalon-->
+    @*
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    *@
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

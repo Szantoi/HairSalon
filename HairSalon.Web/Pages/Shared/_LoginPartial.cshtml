@@ -1,0 +1,25 @@
+﻿@using HairSalon.Data.Entities;
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<HairSalonUser> SignInManager
+@inject UserManager<HairSalonUser> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li>
+        <a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @user.FullName!</a>
+    </li>
+}
+else
+{
+
+    <li>
+        <a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        <ul>
+            <li><a id="register" asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+        </ul>
+    </li>
+}

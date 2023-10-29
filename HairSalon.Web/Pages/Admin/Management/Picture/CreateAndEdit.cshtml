@@ -1,0 +1,59 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.Picture.EditModel
+
+@{
+    ViewData["Title"] = "Picture create and edit";
+}
+
+<h1>Picture</h1>
+
+<h4>Create and edit</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PictureDetails.Id" />
+            <div class="form-group">
+                <label asp-for="PictureDetails.Name" class="control-label"></label>
+                <input asp-for="PictureDetails.Name" class="form-control" />
+                <span asp-validation-for="PictureDetails.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PictureDetails.Description" class="control-label"></label>
+                <input asp-for="PictureDetails.Description" class="form-control" />
+                <span asp-validation-for="PictureDetails.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PictureDetails.Author" class="control-label"></label>
+                <input asp-for="PictureDetails.Author" class="form-control" />
+                <span asp-validation-for="PictureDetails.Author" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PictureDetails.Type" class="control-label"></label>
+                <select asp-for="PictureDetails.Type" asp-items="Model.PictureTypeSelectList" class="form-control">
+                    <option>"..."</option>
+                </select>
+                <span asp-validation-for="PictureDetails.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PictureDetails.AppointmentId" class="control-label"></label>
+                <input asp-for="PictureDetails.AppointmentId" class="form-control" />
+                <span asp-validation-for="PictureDetails.AppointmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

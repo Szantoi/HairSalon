@@ -1,0 +1,43 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.ShopServicis.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ShopServiceDetails</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ShopServiceDetails.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ShopServiceDetails.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ShopServiceDetails.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ShopServiceDetails.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ShopServiceDetails.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ShopServiceDetails.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ShopServiceDetails.PeriodMinute)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ShopServiceDetails.PeriodMinute)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ShopServiceDetails?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

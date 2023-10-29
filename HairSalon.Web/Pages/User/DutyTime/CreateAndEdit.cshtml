@@ -1,0 +1,59 @@
+﻿@page
+@model HairSalon.Web.Pages.User.DutyTime.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DutyTimeDetails</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DutyTimeDetails.Id" />
+            <div class="form-group">
+                <label asp-for="DutyTimeDetails.Description" class="control-label"></label>
+                <input asp-for="DutyTimeDetails.Description" class="form-control" />
+                <span asp-validation-for="DutyTimeDetails.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DutyTimeDetails.Type" class="control-label"></label>
+                <select asp-for="DutyTimeDetails.Type" asp-items="Model.DutyTimeTypeSelectList" class="form-control">
+                    <option>"..."</option>
+                </select>
+                <span asp-validation-for="DutyTimeDetails.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DutyTimeDetails.TimeStart" class="control-label"></label>
+                <input asp-for="DutyTimeDetails.TimeStart" class="form-control" />
+                <span asp-validation-for="DutyTimeDetails.TimeStart" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DutyTimeDetails.TimeEnd" class="control-label"></label>
+                <input asp-for="DutyTimeDetails.TimeEnd" class="form-control" />
+                <span asp-validation-for="DutyTimeDetails.TimeEnd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DutyTimeDetails.EnployedId" class="control-label"></label>
+                <select asp-for="DutyTimeDetails.EnployedId" asp-items="Model.EmployedServiceListItems" class="form-control">
+                    <option>"..."</option>
+                </select>
+                <span asp-validation-for="DutyTimeDetails.EnployedId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

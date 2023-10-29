@@ -1,0 +1,65 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.DutyTime.IndexModel
+
+@{
+    ViewData["Title"] = "Duty time";
+}
+
+<h1>Duty time</h1>
+
+<p>
+    <a asp-page="./CreateAndEdit">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].EnployedId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].TimeStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].TimeEnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DutyTimeDetails[0].EnployedId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.DutyTimeDetails)
+        {
+            var employedntName = Model.Employeds.Where(e => e.Id == item.EnployedId).Select(e=>e.Name).Single().ToString();
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => employedntName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeStart)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeEnd)
+                </td>
+                <td>
+                    <a asp-page="./CreateAndEdit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

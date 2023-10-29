@@ -1,0 +1,12 @@
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\bin\Debug\net6.0\HairSalon.Seed.deps.json
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\bin\Debug\net6.0\HairSalon.Seed.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\bin\Debug\net6.0\HairSalon.Seed.pdb
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.csproj.AssemblyReference.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.AssemblyInfoInputs.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.AssemblyInfo.cs
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.csproj.CoreCompileInputs.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\refint\HairSalon.Seed.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\HairSalon.Seed.pdb
+C:\Users\szant\source\test\HairSalon\HairSalon.Seed\obj\Debug\net6.0\ref\HairSalon.Seed.dll

@@ -1,0 +1,58 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.Appointment.DetailsModel
+
+@{
+    ViewData["Title"] = "Appointment details";
+}
+
+<h1>Appointment</h1>
+
+<div>
+    <h4>Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.TimeStart)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.TimeStart)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.TimeEnd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.TimeEnd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.HairSalonUserId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.HairSalonUserId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AppointmentDetails.DutyTimeId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.DutyTimeId)
+        </dd>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AppointmentDetails.ShopServiceId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.AppointmentDetails?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

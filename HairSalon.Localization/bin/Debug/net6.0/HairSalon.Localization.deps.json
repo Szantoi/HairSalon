@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HairSalon.Localization/1.0.0": {
+        "runtime": {
+          "HairSalon.Localization.dll": {}
+        },
+        "resources": {
+          "hu/HairSalon.Localization.resources.dll": {
+            "locale": "hu"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HairSalon.Localization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

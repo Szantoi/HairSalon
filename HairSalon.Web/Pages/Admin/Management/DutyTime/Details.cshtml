@@ -1,0 +1,49 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.DutyTime.DetailsModel
+
+@{
+    ViewData["Title"] = "Duty time details";
+}
+
+<h1>Duty time</h1>
+
+<div>
+    <h4>Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DutyTimeDetails.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DutyTimeDetails.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DutyTimeDetails.Type)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DutyTimeDetails.Type)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DutyTimeDetails.TimeStart)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DutyTimeDetails.TimeStart)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DutyTimeDetails.TimeEnd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DutyTimeDetails.TimeEnd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DutyTimeDetails.EnployedId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DutyTimeDetails.EnployedId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DutyTimeDetails?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

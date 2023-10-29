@@ -1,0 +1,14 @@
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\bin\Debug\net6.0\HairSalon.Data.deps.json
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\bin\Debug\net6.0\HairSalon.Data.runtimeconfig.json
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\bin\Debug\net6.0\HairSalon.Data.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\bin\Debug\net6.0\HairSalon.Data.pdb
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.csproj.AssemblyReference.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.AssemblyInfoInputs.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.AssemblyInfo.cs
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.csproj.CoreCompileInputs.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\refint\HairSalon.Data.dll
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.pdb
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\HairSalon.Data.genruntimeconfig.cache
+C:\Users\szant\source\test\HairSalon\HairSalon.Data\obj\Debug\net6.0\ref\HairSalon.Data.dll

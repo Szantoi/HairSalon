@@ -1,0 +1,40 @@
+﻿@page
+@model HairSalon.Web.Pages.Admin.Employed.DeleteModel
+
+@{
+    ViewData["Title"] = "Employed delete";
+}
+
+<h1>Employed</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmployedDetails.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EmployedDetails.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmployedDetails.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EmployedDetails.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EmployedDetails.Type)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EmployedDetails.Type)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="EmployedDetails.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
