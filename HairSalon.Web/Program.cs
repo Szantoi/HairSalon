@@ -33,7 +33,7 @@ namespace HairSalon.Web
             builder.Services.AddScoped<PictureService>();
             builder.Services.AddScoped<ShopServiceService>();
 
-            builder.Services.AddDbContext<HairSalonDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("HairSalonDB")));
+            builder.Services.AddDbContext<HairSalonDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
 
             builder.Services.AddIdentity<HairSalonUser, IdentityRole<int>>()
                 .AddEntityFrameworkStores<HairSalonDbContext>()
@@ -47,7 +47,7 @@ namespace HairSalon.Web
                 options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
                 options.InstanceName = "SampleInstance";
             });
-            
+
             builder.Services.AddSession(options =>
             {
                 options.Cookie.Name = "AppointentInputModel";
