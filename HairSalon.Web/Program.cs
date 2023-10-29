@@ -42,7 +42,12 @@ namespace HairSalon.Web
 
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources.hu");
 
-            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
+                options.InstanceName = "SampleInstance";
+            });
+            
             builder.Services.AddSession(options =>
             {
                 options.Cookie.Name = "AppointentInputModel";
