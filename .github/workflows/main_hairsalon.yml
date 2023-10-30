@@ -27,13 +27,7 @@ jobs:
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-      
-      - name: dotnet instanll ef
-        run: dotnet tool install -g dotnet-ef
 
-      - name: dotnet bundle migrtion
-        run: dotnet ef migrations bundle --runtime linux-x64 -p DotNetCoreSqlDb/DotNetCoreSqlDb.csproj -o ${{env.DOTNET_ROOT}}/myapp/migrate
-      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
@@ -59,5 +53,5 @@ jobs:
         with:
           app-name: 'hairsalon'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4EC1423A924D477094B205CB5BE2B16B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8DBF4E7A32241C39E00BDD84A3550DF }}
           package: .
