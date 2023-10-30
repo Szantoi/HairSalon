@@ -33,8 +33,8 @@ jobs:
         run: dotnet tool install -g dotnet-ef
 
       - name: dotnet bundle migrtion
-        run: dotnet ef migrations bundle --runtime linux-x64 -p DotNetCoreSqlDb/DotNetCoreSqlDb.csproj -o ${{env.DOTNET_ROOT}}/myapp/migrate
-      
+        run: dotnet ef migrations bundle --runtime linux-x64 -p HairSalon/HairSalon.Data/HairSalon.Data.csproj -o ${{env.DOTNET_ROOT}}/HairSalon/HairSalon.Data/Migrations
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
