@@ -14,6 +14,7 @@ using HairSalon;
 using HairSalon.Bll.Services;
 using Microsoft.AspNetCore.Localization;
 using System.Globalization;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
 
 namespace HairSalon.Web
 {

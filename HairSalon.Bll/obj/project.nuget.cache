@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AOrFP8s2e2RwrXRhlc8k5v/UOaqBg8jVjfD7NxetdLZMFi13R2T7GR1BiwfOYMrpGtI7JQWZ2kR89QeBg4Q5UA==",
+  "dgSpecHash": "Kz1klG0FuxQDu5RlCHixfoYaOF1xnSE5nLPPd216aYj4+xGN+xjWeUFpIWXEev82U9d+TYTmuLcxtJ4QDpKzxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Bll\\HairSalon.Bll.csproj",
+  "projectFilePath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Bll\\HairSalon.Bll.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szant\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.20\\microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",
     "C:\\Users\\szant\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.20\\microsoft.aspnetcore.cryptography.keyderivation.6.0.20.nupkg.sha512",

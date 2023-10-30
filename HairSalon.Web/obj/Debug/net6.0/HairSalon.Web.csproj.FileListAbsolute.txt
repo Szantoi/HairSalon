@@ -266,3 +266,15 @@ C:\Users\szant\source\test\HairSalon\HairSalon.Web\bin\Debug\net6.0\Microsoft.Ex
 C:\Users\szant\source\test\HairSalon\HairSalon.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\szant\source\test\HairSalon\HairSalon.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\szant\source\test\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.csproj.AssemblyReference.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.AssemblyInfoInputs.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.AssemblyInfo.cs
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.csproj.CoreCompileInputs.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.RazorAssemblyInfo.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.RazorAssemblyInfo.cs
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\refint\HairSalon.Web.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Web\obj\Debug\net6.0\HairSalon.Web.pdb

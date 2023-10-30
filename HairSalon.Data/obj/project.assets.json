@@ -2253,11 +2253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
+      "projectUniqueName": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
       "projectName": "HairSalon.Data",
-      "projectPath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
+      "projectPath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
       "packagesPath": "C:\\Users\\szant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Data\\obj\\",
+      "outputPath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\szant\\AppData\\Roaming\\NuGet\\NuGet.Config",

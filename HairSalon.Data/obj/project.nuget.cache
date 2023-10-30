@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6RedkcpxChbeELG4Opt9/X8yRT9VmhLCdh5f3A8pYDWHaJWGkp/uMLtTyz7biyUiRbRxFymCEv8YdhQ+Sy3Eg==",
+  "dgSpecHash": "v/m238C/tQzHQtfRdCxr3SxJBD3ZFrgqkB2ZtaVgGnCC/gK7LEC8rjgL0UHdQ+O6WyeLog7vBkZf+gZ5IBuBkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
+  "projectFilePath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Data\\HairSalon.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szant\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\szant\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.20\\microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",

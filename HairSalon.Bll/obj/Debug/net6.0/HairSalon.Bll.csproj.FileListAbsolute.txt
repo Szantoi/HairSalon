@@ -16,3 +16,21 @@ C:\Users\szant\source\test\HairSalon\HairSalon.Bll\obj\Debug\net6.0\refint\HairS
 C:\Users\szant\source\test\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.pdb
 C:\Users\szant\source\test\HairSalon\HairSalon.Bll\obj\Debug\net6.0\ref\HairSalon.Bll.dll
 C:\Users\szant\source\test\HairSalon\HairSalon.Bll\bin\Debug\net6.0\hu\HairSalon.Localization.resources.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Bll.deps.json
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Bll.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Bll.pdb
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Data.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Localization.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Data.pdb
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\HairSalon.Localization.pdb
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\bin\Debug\net6.0\hu\HairSalon.Localization.resources.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.csproj.AssemblyReference.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.AssemblyInfoInputs.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.AssemblyInfo.cs
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.csproj.CoreCompileInputs.cache
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.csproj.CopyComplete
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\refint\HairSalon.Bll.dll
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\HairSalon.Bll.pdb
+C:\Users\szant\OneDrive - Eotvos Lorand Tudomanyegyetem\Dokumentumok\GitHub\HairSalon\HairSalon.Bll\obj\Debug\net6.0\ref\HairSalon.Bll.dll

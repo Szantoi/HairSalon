@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Localization\\HairSalon.Localization.csproj",
+      "projectUniqueName": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Localization\\HairSalon.Localization.csproj",
       "projectName": "HairSalon.Localization",
-      "projectPath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Localization\\HairSalon.Localization.csproj",
+      "projectPath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Localization\\HairSalon.Localization.csproj",
       "packagesPath": "C:\\Users\\szant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szant\\source\\test\\HairSalon\\HairSalon.Localization\\obj\\",
+      "outputPath": "C:\\Users\\szant\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Dokumentumok\\GitHub\\HairSalon\\HairSalon.Localization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\szant\\AppData\\Roaming\\NuGet\\NuGet.Config",
